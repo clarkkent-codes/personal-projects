@@ -1,0 +1,7 @@
+Common causes behind this specific failure
+
+You’re launching the script from an IDE/terminal whose working directory is different from the script’s folder.
+
+The file name isn’t an exact match: even a small difference (uppercase/lowercase, an extra space, or a hidden second “.txt”) makes it a different file.
+
+On Windows, “Hide extensions for known file types” can make a file that looks like “hugss.txt” actually be “hugss.txt.txt”.
